@@ -1,0 +1,35 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Width="217" Height="500" Background="#FF556677">
+ 
+        <Grid Width="184">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="16*" />
+            <ColumnDefinition Width="292*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="224*" />
+            <RowDefinition Height="237*" />
+        </Grid.RowDefinitions>
+        <TextBox Height="35" HorizontalAlignment="Left" Margin="12,12,0,0" Name="Wynik" VerticalAlignment="Top" Width="164" TextChanged="textBox1_TextChanged" DataContext="{Binding}" Grid.ColumnSpan="2" />
+        <Button Content="1" Height="36" HorizontalAlignment="Left" Margin="0,53,0,0" Name="Jeden" VerticalAlignment="Top" Width="36" Click="AktualizujDane" KeyDown="AktualizujDane" Grid.Column="1" />
+        <Button Content="2" Height="36" HorizontalAlignment="Left" Margin="41,53,0,0" Name="Dwa" VerticalAlignment="Top" Width="36" Grid.Column="1" Click="AktualizujDane" />
+        <Button Content="3" Height="36" HorizontalAlignment="Left" Margin="83,53,0,0" Name="Trzy" VerticalAlignment="Top" Width="36" Grid.Column="1" Click="AktualizujDane" />
+        <Button Content="+" Height="36" HorizontalAlignment="Left" Margin="41,179,0,0" Name="Dodaj" VerticalAlignment="Top" Width="36" Grid.Column="1" Click="Dodaj_Click"/>
+        <Button Content="-" Height="36" HorizontalAlignment="Left" Margin="83,179,0,0" Name="Odejmij" VerticalAlignment="Top" Width="36" Grid.Column="1" Click="Odejmij_Click" />
+        <Button Content="=" Height="36" HorizontalAlignment="Left" Margin="126,179,0,0" Name="RownaSie" VerticalAlignment="Top" Width="36" Grid.Column="1" Click="RownaSie_Click"/>
+        <Button Content="C" Height="36" HorizontalAlignment="Left" Margin="125,53,0,0" Name="Wyczysc" VerticalAlignment="Top" Width="36" Grid.Column="1" Click="Wyczysc_Click"/>
+        <Button Content="4" Height="36" HorizontalAlignment="Left" Name="Cztery" VerticalAlignment="Top" Width="36" Grid.Column="1" Margin="0,95,0,0" Click="AktualizujDane" />
+        <Button Content="5" Height="36" HorizontalAlignment="Left" Margin="42,95,0,0" Name="Piec" VerticalAlignment="Top" Width="36" Grid.Column="1" Click="AktualizujDane" />
+        <Button Content="6" Height="36" HorizontalAlignment="Left" Margin="84,95,0,0" Name="Szesc" VerticalAlignment="Top" Width="36" Grid.Column="1" Click="AktualizujDane" />
+        <Button Content="7" Height="36" HorizontalAlignment="Left" Margin="0,137,0,0" Name="Siedem" VerticalAlignment="Top" Width="36" Grid.Column="1" Grid.RowSpan="2" Click="AktualizujDane" />
+        <Button Content="8" Height="36" HorizontalAlignment="Left" Margin="42,137,0,0" Name="Osiem" VerticalAlignment="Top" Width="36" Grid.Column="1" Grid.RowSpan="2" Click="AktualizujDane" />
+        <Button Content="9" Height="36" HorizontalAlignment="Left" Margin="84,137,0,0" Name="Dziewiec" VerticalAlignment="Top" Width="36" Grid.Column="1" Grid.RowSpan="2" Click="AktualizujDane" />
+        <Button Content="0" Height="36" HorizontalAlignment="Left" Margin="0,179,0,0" Name="Zero" VerticalAlignment="Top" Width="36" Grid.Column="1" Click="AktualizujDane" />
+        <ListBox Grid.Column="1" Grid.Row="1" Height="54" HorizontalAlignment="Left" Name="listBox1" VerticalAlignment="Top" Width="162" SelectionChanged="listBox1_SelectionChanged" Margin="0,54,0,0" />
+        <Button Content="Sprawdz" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="3,114,0,0" Name="Sprawdzam" VerticalAlignment="Top" Width="75" Grid.Row="1" />
+        <Button Content="." Grid.Column="1" Height="36" HorizontalAlignment="Left" Margin="125,137,0,0" Name="Przecinek" VerticalAlignment="Top" Width="37" Click="Przecinek_Click" />
+        <Button Content="/" Height="36" HorizontalAlignment="Left" Margin="83,221,0,0" Name="Dziel" VerticalAlignment="Top" Width="36" Grid.Column="1" Click="Dziel_Click" Grid.RowSpan="2" />
+        <Button Content="*" Height="36" HorizontalAlignment="Left" Margin="41,221,0,0" Name="Mnoz" VerticalAlignment="Top" Width="36" Grid.Column="1" Click="Mnoz_Click_1" Grid.RowSpan="2" />
+    </Grid>
+</Window>

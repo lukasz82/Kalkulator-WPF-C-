@@ -1,0 +1,11 @@
+F:\cwiczenia_c\c_szarp1_ciwczenia\WPF1\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.exe
+F:\cwiczenia_c\c_szarp1_ciwczenia\WPF1\WpfApplication1\WpfApplication1\bin\Release\WpfApplication1.pdb
+F:\cwiczenia_c\c_szarp1_ciwczenia\WPF1\WpfApplication1\WpfApplication1\obj\x86\Release\MainWindow.baml
+F:\cwiczenia_c\c_szarp1_ciwczenia\WPF1\WpfApplication1\WpfApplication1\obj\x86\Release\MainWindow.g.cs
+F:\cwiczenia_c\c_szarp1_ciwczenia\WPF1\WpfApplication1\WpfApplication1\obj\x86\Release\App.g.cs
+F:\cwiczenia_c\c_szarp1_ciwczenia\WPF1\WpfApplication1\WpfApplication1\obj\x86\Release\WpfApplication1_MarkupCompile.cache
+F:\cwiczenia_c\c_szarp1_ciwczenia\WPF1\WpfApplication1\WpfApplication1\obj\x86\Release\WpfApplication1.g.resources
+F:\cwiczenia_c\c_szarp1_ciwczenia\WPF1\WpfApplication1\WpfApplication1\obj\x86\Release\WpfApplication1.Properties.Resources.resources
+F:\cwiczenia_c\c_szarp1_ciwczenia\WPF1\WpfApplication1\WpfApplication1\obj\x86\Release\WpfApplication1.csproj.GenerateResource.Cache
+F:\cwiczenia_c\c_szarp1_ciwczenia\WPF1\WpfApplication1\WpfApplication1\obj\x86\Release\WpfApplication1.exe
+F:\cwiczenia_c\c_szarp1_ciwczenia\WPF1\WpfApplication1\WpfApplication1\obj\x86\Release\WpfApplication1.pdb
